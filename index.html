@@ -1,0 +1,67 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/dseg7-classic">
+    </head>
+        <title>Document</title>
+       
+    <body>
+        <div class="card-div">
+            
+            <div class="wrapper-div1">
+                <div>
+                    HOME
+                </div>
+                <div>
+                    GUEST
+                </div>
+            </div>
+       
+            
+            <div class="wrapper-div2">
+                <div class="score" id="homeScore"></div>
+                <div class="score" id="guestScore"></div>
+            </div>
+
+
+
+            <div  class="score-incre">
+
+                <div class="home-score-inc">
+                    <div class="home-incr"><button onclick="homeScore_inc_one()">+1</button></div>
+                    <div class="home-incr"><button onclick="homeScore_inc_two()">+2</button></div>
+                    <div class="home-incr"><button onclick="homeScore_inc_three()">+3</button></div>
+                </div>
+
+
+                <div class="guest-score">
+                    
+                    <div class="home-incr" id="homesc1"><button onclick="guestScore_inc_one()">+1</button></div>
+                    <div class="home-incr" id="homesc2"><button onclick="guestScore_inc_two()">+2</button></div>
+                    <div class="home-incr" id="homesc3"><button onclick="guestScore_inc_three()">+3</button></div>
+
+                </div>
+
+            </div>
+
+            <button class="new-game" id="newGame" onclick="newGame()">New Game</button>
+
+            <div class="leader">
+                <p>Leader of the match:<div id="leader"></div></p>
+            </div>
+
+            <div class="outer-div">
+                <div class="timer" id="time">
+                12
+              </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+    </html>
+</body>
+</html>
