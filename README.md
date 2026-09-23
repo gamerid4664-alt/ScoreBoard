@@ -4,7 +4,7 @@ A simple and interactive **Scoreboard Web Application** built using **HTML, CSS,
 
 This project was created as a practice project to improve my JavaScript fundamentals, DOM manipulation, event handling, and basic web application development.
 
-## 🚀 Features
+## 🚀 Features included
 
 - ➕ Add points to Team/Player 1
 - ➕ Add points to Team/Player 2
